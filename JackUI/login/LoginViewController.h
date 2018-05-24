@@ -13,6 +13,7 @@
 
   /**
   需要添加的接口：
+   */
   -(void)loginWithName:(NSString*)name pwd:(NSString*)pwd;
-  */
+
 @end

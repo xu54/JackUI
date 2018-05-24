@@ -24,7 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)tt
+-(void)loginWithName:(NSString *)name pwd:(NSString *)pwd
 {
     
 }
