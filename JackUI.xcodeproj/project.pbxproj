@@ -15,6 +15,7 @@
 		F216118820B6AFD80001E689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F216118720B6AFD80001E689 /* main.m */; };
 		F216119220B6AFD90001E689 /* JackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F216119120B6AFD90001E689 /* JackUITests.m */; };
 		F216119D20B6AFD90001E689 /* JackUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F216119C20B6AFD90001E689 /* JackUIUITests.m */; };
+		F21611AD20B6B8A70001E689 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21611AC20B6B8A70001E689 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F216119820B6AFD90001E689 /* JackUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F216119C20B6AFD90001E689 /* JackUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackUIUITests.m; sourceTree = "<group>"; };
 		F216119E20B6AFD90001E689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21611AB20B6B8A70001E689 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F21611AC20B6B8A70001E689 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F216117720B6AFD70001E689 /* JackUI */ = {
 			isa = PBXGroup;
 			children = (
+				F21611AA20B6B8900001E689 /* login */,
 				F216117820B6AFD70001E689 /* AppDelegate.h */,
 				F216117920B6AFD70001E689 /* AppDelegate.m */,
 				F216117B20B6AFD70001E689 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				F216119E20B6AFD90001E689 /* Info.plist */,
 			);
 			path = JackUIUITests;
+			sourceTree = "<group>";
+		};
+		F21611AA20B6B8900001E689 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F21611AB20B6B8A70001E689 /* LoginViewController.h */,
+				F21611AC20B6B8A70001E689 /* LoginViewController.m */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21611AD20B6B8A70001E689 /* LoginViewController.m in Sources */,
 				F216117D20B6AFD70001E689 /* ViewController.m in Sources */,
 				F216118820B6AFD80001E689 /* main.m in Sources */,
 				F216117A20B6AFD70001E689 /* AppDelegate.m in Sources */,
